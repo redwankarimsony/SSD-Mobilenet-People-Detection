@@ -1,0 +1,37 @@
+<annotation>
+	<folder></folder>
+	<filename>VID_6092.jpg</filename>
+	<path>//VID_6092.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>92</xmin>
+			<ymin>0</ymin>
+			<xmax>162</xmax>
+			<ymax>139</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>201</xmin>
+			<ymin>0</ymin>
+			<xmax>300</xmax>
+			<ymax>155</ymax>
+		</bndbox>
+	</object>
+</annotation>

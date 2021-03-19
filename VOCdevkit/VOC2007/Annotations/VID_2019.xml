@@ -1,0 +1,25 @@
+<annotation>
+	<folder></folder>
+	<filename>VID_2019.jpg</filename>
+	<path>//VID_2019.jpg</path>
+	<source>
+		<database>Unspecified</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>300</height>
+		<depth>3</depth>
+	</size>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>Unspecified</truncated>
+		<difficult>Unspecified</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>99</ymin>
+			<xmax>208</xmax>
+			<ymax>244</ymax>
+		</bndbox>
+	</object>
+</annotation>
