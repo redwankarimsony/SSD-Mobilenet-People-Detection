@@ -1,5 +1,3 @@
-%%writefile train.py
-
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
@@ -151,7 +149,7 @@ data_folder = 'data_folder'
 
 keep_difficult = True  # use objects considered difficult to detect?
 
-voc_labels = ('person')
+voc_labels = ['person']
 label_map = {k: v + 1 for v, k in enumerate(voc_labels)}
 label_map['background'] = 0
 rev_label_map = {v: k for k, v in label_map.items()} # Inverse mapping
@@ -176,7 +174,7 @@ def main(args):
 	epochs = config['n_epochs']  # number of epochs to run without early-stopping
 	epochs_since_improvement = 0  # number of epochs since there was an improvement in the validation metric
 	best_loss = 100.  # assume a high loss at first
-	workers = 4  # number of workers for loading data in the DataLoader
+	workers = 2  # number of workers for loading data in the DataLoader
 	lr = config['lr']  # learning rate
 	momentum = 0.9  # momentum
 	weight_decay = config['weight_decay']  # weight decay
